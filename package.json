@@ -6,7 +6,8 @@
   "scripts": {
     "start": "parcel {src/*.html,src/**/*.html}",
     "build": "parcel build {src/*.html,src/**/*.html}",
-    "clear": "rm -rf .parcel-cache dist"
+    "clear": "rm -rf .parcel-cache dist",
+    "compile-scss": "node-sass src/scss/index.scss -o assets/css"
   },
   "repository": {
     "type": "git",
