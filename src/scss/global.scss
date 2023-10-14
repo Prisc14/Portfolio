@@ -10,7 +10,7 @@
 .blocHorizontal {
     display: flex;
     flex-direction: row;
-    width: 400vw;
+    width: 500vw;
     transform: rotate(90deg) translateY(-100vh);
     transform-origin: top left;
 }
@@ -32,7 +32,7 @@
 
 
 .one {
-    background-color: aqua;
+    background-color: chocolate;
 }
 
 .two {
@@ -41,4 +41,8 @@
 
 .three {
     background-color: blueviolet;
+}
+
+.hidden {
+    visibility: hidden;
 }
