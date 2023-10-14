@@ -1,2 +1,85 @@
-@use './reset.scss';
-@use './global.scss';
+@charset "UTF-8";
+/* Réinitialisation CSS basique */
+/* Remettre les marges et les paddings à zéro */
+html, body, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Définir une police de base */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Assurer une taille de texte de base */
+body, button, input, select, textarea {
+  font-size: 16px;
+}
+
+/* Remettre en noir la couleur du texte par défaut */
+body {
+  color: #000;
+}
+
+/* Supprimer la décoration des liens par défaut */
+a {
+  text-decoration: none;
+}
+
+/* Rendre les éléments en ligne et en ligne-block alignés comme des divs */
+ul, ol {
+  list-style: none;
+}
+
+/* Ajouter une règle de boîte de modèle */
+/* Cette règle permet aux éléments d'obéir à la largeur et à la hauteur que vous définissez sans tenir compte du rembourrage et des bordures */
+* {
+  box-sizing: border-box;
+}
+
+/* Ajouter des styles de réinitialisation spécifiques à votre projet ici */
+.slide {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+
+.blocHorizontal {
+  display: flex;
+  flex-direction: row;
+  width: 400vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+
+.container {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-x: hidden;
+  -ms-overlow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.one {
+  background-color: aqua;
+}
+
+.two {
+  background-color: beige;
+}
+
+.three {
+  background-color: blueviolet;
+}
+
+/*# sourceMappingURL=index.css.map */
