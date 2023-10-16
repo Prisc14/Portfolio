@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon portfolio</title>
+    <link rel="shortcut icon" href="./img/portfolio_281089.png" type="image/x-icon">
+    <link rel="stylesheet" href="./scss/index.scss">
+    <script type="module" defer src="./js/index.js"></script>
+</head>
+<body>
+    <header>
+        <!--1ere page fond: image fond1, sur la droite main1 et main2-->
+        <section>
+            <h1>Portfolio</h1>
+            <h2>Priscilla Houvenaghel</h2>
+            <p>Sur Yssingeaux (43)</p>
+        </section>
+    </header>
+    <main> 
+        <!--2eme page avec toute les experiences et les projets-->
+        <section>
+            <article id="restauration" class="container">
+                <h2>Expérience en Restauration</h2>
+                <p>J'ai acquis une expérience significative dans le domaine de la restauration. J'ai obtenu deux CAP, l'un en service restauration et l'autre en service bar brasserie. Pendant 7 ans, j'ai occupé plusieurs postes : commis, chef de rang, chef de salle et barman ; j'ai travaillé dans divers établissements où j'ai développé des compétences essentielles, notamment :</p>
+
+                    <ul>
+                        <li>Gestion des stockes et de la mise en place</li>
+                        <li>Exellente relation avec les clients</li>
+                        <li>Encaissement</li>
+                        <li>Formation des apprentis et des stagiaires</li>
+                    </ul>
+
+                <p>Outre ces compétences techniques, j'ai également développé des qualités personnelles précieuses, telles que :</p>
+
+                    <ul>
+                        <li>L'autonomie</li>
+                        <li>La capacité d'adaptation</li>
+                        <li>L'amabilité</li>
+                    </ul> 
+            </article>
+
+            <article id="stages" class="container">
+                <h2>Stages</h2>
+                <section id="infographie">
+                    <h3>Stage en Infographie</h3>
+                    <p>J'ai eu l'opportunité de réaliser un stage en infographie où j'ai développé des compétences essentielles dans la conception graphique, notamment la création d'éléments visuels pour divers supports. Mes tâches comprenaient la conception de :</p>
+
+                    <ul>
+                        <li>Graphiques pour des publications imprimées et numériques.</li>
+                        <li>Images et illustrations personnalisées.</li>
+                        <li>Retouches photo et montage.</li>
+                    </ul>
+                </section>
+
+                <section id="signalétique">
+                    <h3>Stage en Signalétique</h3>
+                    <p> Mon stage en signalétique m'a permis d'approfondir mes connaissances dans le monde de la signalisation et de la communication visuelle. J'ai acquis des compétences précieuses dans la conception et la fabrication de panneaux et de signalisations pour diverses applications, notamment :</p>
+                    <ul>
+                        <li>Conception de logo et de plaquette.</li>
+                        <li>Conception de panneaux de signalisation pour bâtiments et espaces publics.</li>
+                        <li>Utilisation d'outils et de techniques de découpe, d'assemblage et de collage. </li>
+                        <li>Choix des matériaux appropriés pour chaque projet.</li>
+                    </ul>
+                </section>
+
+                <section id="sérigraphie">
+                    <h3>Stage en Sérigraphie</h3>
+                    <p>Mon stage en sérigraphie m'a permis de découvrir le processus de sérigraphie et de développer des compétences dans la création d'images et de motifs imprimés sur divers supports, notamment :</p>
+                    <ul>
+                        <li>Préparations des écrans et des encres pour l'impression.</li>
+                        <li>Impression de disigns personnalisés sur textiles et autres surfaces.</li>
+                        <li>Contrôle de la qualité de l'impression et de la couleur.</li>
+                    </ul>
+                </section>
+            </article>
+
+            <article id="photographie" class="container">
+                <h2>Expérience en Photographie</h2>
+                <p>Étant passionné par la photographie depuis le début, je décide de me consacrer à ma passion. Au cours de mon expérience en photographie en tant que responsable photographe, j'ai acquis divers savoir-faire et savoir-être, notamment :</p>
+                    <h3>Savoir-faire</h3>
+                        <ul>
+                            <li>Planification et gestion.</li>
+                            <li>Organisation du planning pour les séances photo et les plannings des photographes pour le même secteur.</li>
+                            <li>Gestion des commandes clients et impression sous différents formats.</li>
+                            <li>Gestion de la caisse et des transactions financières.</li>
+                        </ul>
+                    <h3>Savoir-être</h3>
+                        <ul>
+                            <li>Capacité de management : Capacité à gérer de manière indépendante les oprérations photographiques et le personnels.</li>
+                            <li>Créativité : Capacité à imaginer et créer des images uniques et mémorables.</li>
+                            <li>Souci du détail : Précision dans le choix des images et dans l'impression.</li>
+                            <li>Curiosité : Explorer de nouvelles techniques, rester à jour avec les tendances de l'industrie.</li>
+                        </ul>
+            </article>
+
+            <article id="conseillère" class="container">
+                <h2>Expérience en Conseillère Assistance Technique à Distance</h2>
+                <p>En tant que Conseillère en assistance technique à distance au sein de l'entreprise Orange, j'ai développé de compétences qui m'ont permis de répondre de manière professionnelle aux besoins des clients. J'ai obtenu une calcification : CQPT dans le domaine du télécom. J'ai pu développer d'autres compétences, notamment :</p>
+                    <ul>
+                        <li>Acceuil et écoute active des clien.</li>
+                        <li>Méthodes de dialogue à distance.</li>
+                        <li>Diagnostique technique précis.</li>
+                        <li>Résolution efficace des problèmes techniques.</li>
+                        <li>Gestion méticuleuse des dossiers clients.</li>
+                        <li>Animation d'ateliers digitaux informatifs.</li>
+                         <li>Coordination d'un concours photos réussi.</li>
+                    </ul>
+                <p>j'ai également cultivé des qualités personnelles précieuses, telles que :</p>
+                        <ul>
+                            <li>Empathie envers les cliants.</li>
+                            <li>Patience dans les situations complexes.</li>
+                            <li>Adaptabilité aux divers problèmes techniques.</li>
+                            <li>Esprit d'équipe pour une collaboration efficace.</li>
+                            <li>Satisfaction cliente à distance</li>
+                        </ul>
+            </article>
+
+            <article id="entreprise" class="container">
+                <h2>Création d'entreprise</h2>
+                <h3>Bienvenue chez Prisc Photography Itinérante !</h3>
+                <p>En 2019, je me lance dans l'aventure en créant mon auto-entreprise de photographe itinérante, J'ai acquis une compétence distinctive en photographie en noir et blanc, ainsi qu'en portrait, grâce à la création d'un fonctionnement unique et au développement de compétences spécialisées pour offrir un service photographique exceptionnel. Mon approche consiste à installer un barnum ou une caravane transformée en studio photo sur des événements thématiques tels que fêtes vikings, carnavals, fêtes de bikers, anniversaires et mariages. Mon service comprend :</p>
+                    <ul>
+                        <li>Installation et gestion du studio photo itinérant.</li>
+                        <li>Prise de photos créatives.</li>
+                        <li>Impression immédiate de photos de haute qualité en différents formats.</li>
+                        <li>Retouche photo professionnelle.</li>
+                        <li>Conception et réalisation de fluers, cartes de visite, et supports promotionnels.</li>
+                        <li>Montage photo.</li>
+                         <li>Organisation de décors thématiques pour chaque événement.</li>
+                    </ul>
+                <p>Mon service est reconnu pour sa polyvalence et sa capacité à offrir des souvenirs personnalisés et de haute qualité à mes clients. Je me déplace de région en région pour participer à une variété d'événements, apportant mon expertise en photographie itinérante.</p>
+                    <ul>
+                        <li>Créativité : Conception de décors uniques.</li>
+                        <li>Service Client : Création de moments de détente et de souvenirs pour les clients</li>
+                        <li>Adaptabilité : Capable de travailler dans des environnements variés et de s'ajuster aux thèmes des événements</li>
+                        <li>Autonomie : Gestion complète de chaque aspect de l'entreprise.</li>
+                        <li>Sens de l'Organisation : Coordination logistique pour chaque déplacement.</li>
+                    </ul>
+            </article>
+
+            <article id="bénévolat" class="container">
+                <h2>Projet, bénévole pour une école de la nature</h2>
+                <h3>Ecole Colegram, Jardin d'enfants Coucou Hibou !</h3>
+                <p>En tant que bénévole au sein d'une école de la nature, une association non conventionnelle axée sur l'éducation, j'ai pris en charge la gestion de plusieurs commissions vitales. J'ai choisi d'apporter mes compétences à la commission Communication, à la recherche de financements et à la gestion des ressources humaines, contribuant ainsi au développement et à la réussite de l'école. Voici comment j'ai mis en œuvre ces responsabilités au sein de chaque commission :</p>
+
+                <section id="communication">
+                    <h3>Commission Communication</h3>
+                    <p>Faisant partie de la commission Communication, je suis en charge de tache spécifique pour promouvoir l'école, notamment :</p>
+                        <ul>
+                            <li>Conception de supports de communication : Flyers, affiches, ect.</li>
+                            <li>Gestion de médias sociaux : Page Facebook de l'école.</li>
+                            <li>Conception et maintenance du site web de l'école.</li>
+                            <li>Retouche photo professionnelle.</li>
+                            <li>Création de designs pour banderole.</li>
+                            <li>Premier contact et intervention sur des chaînes de radio.</li>
+                        </ul>
+                 </section>
+
+                 <section id="fonds">
+                    <h3>Commission Recherche de fonds</h3>
+                    <p>En tant que gestionnaire de la commission Recherche de Fonds, je m'engage activement dans la quête de financements visant à soutenir les projets éducatifs de l'école et à favoriser l'avancement de la construction de ses infrastructures. Mes compétences spécifiques comprennent notamment :</p>
+                        <ul>
+                            <li>Identification de sources de financement.</li>
+                            <li>Rédaction de demandes de subvention.</li>
+                            <li>Evaluation de la visibilité des projets.</li>
+                            <li>Conception de supports de communication pour les demandes de mécénat, de sponsoring et de dons.</li>
+                            <li>Initiation du premier contact et organisation de rendez-vous avec des entreprises, des associations et des particuliers.</li>
+                            <li>Création d'outils de soutien pour l'organisation de la commission.</li>
+                            <li>Rédaction de courriers et de lettres d'information pour l'envoi des brochures de recherche de fonds.</li>
+                        </ul>
+                </section>
+
+                <section id="rh">
+                    <h3>Commission Ressources humaines (RH)</h3>
+                    <p>En tant RH de l'école, j'ai géré les questions liées au personnel, avec des compétences telles que :</p>
+                    <ul>
+                        <li>Gestion des Ressources Humaines, y compris le recrutement.</li>
+                        <li>Participation active aux réunions pour discuter des questions liées au personnel</li>
+                    </ul>
+                </section>
+
+            </article>
+
+            <article id="dev" class="container">
+                <h2>Ma formation en Développement Web et Application Mobil </h2>
+                <h3>Formation Accessidev !</h3>
+                <p>J'ai suivi une formation de 3 mois en présentiel et 10 mois en distanciel avec 2 organismes de formation "Histya" et "École O'clock". Au cours de cette formation, j'ai appris des connaissances essentielles en développement web, notamment en :</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                         <li>SCSS</li>
+                         <li>JavaScript</li>
+                        <li>NotJS</li>
+                        <li>Data</li>
+                        <li>React</li>
+                        <li>CMS et Mise en forme</li>
+                        <li>Bonus: Accessibilité</li>
+                    </ul>
+
+                    <p>J'ai également appris à travailler avec des outils tels que Git Bash, VS Code et GitHub. Cette formation m'a préparé à un stage à venir et à un projet tutoré.</p>
+
+                <section id="o'clock">
+                    <h3>École O'clock</h3>
+                    <p>La formation en développement web est organisé avec l'école O’clock, la première école de développement web en direct et à distance. Des professeurs expérimentés m'ont formé au métier de développeur, m'ont accompagné jusqu'à l'obtention du diplôme niveau Bac+2.</p>
+                </section>
+
+                <section id="histya">
+                    <h3>Organisme de Formation Histya</h3>
+                    <p>Histya est l'organisme qui a rendu cette formation possible. Ils proposent des formations en groupe ou en formation individuelle, utilisant l'innovation pédagogique pour créer des formations interactives et stimulantes. Leurs formations sont proposées en présentiel, à distance ou de manière mixte. Ils offrent un suivi personnalisé de l'apprentissage et du projet professionnel.</p>
+                </section>
+
+            </article>
+        </section>
+    </main> 
+</body>
+</html>
