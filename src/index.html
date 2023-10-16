@@ -9,29 +9,105 @@
     <script type="module" defer src="./js/index.js"></script>
 </head>
 <body>
-    <header class="container">
+    <div class="container">
         <div class="blocHorizontal"> <!-- a ne pas toucher, sers à orienter le scroll horizontalement -->
             <div id="screenLaptop" class="slide screen">
-                <section>
+
                     <h1>Portfolio</h1>
                     <h2>Priscilla Houvenaghel</h2>
                     <p>Sur Yssingeaux (43)</p>
-                </section>
-                <p>Endroit ou se trouvera l'ecran de pc</p>
-                <button id="buttonScreen">Entrer</button>
-                <section>
-            <h1>Portfolio</h1>
-            <h2>Priscilla Houvenaghel</h2>
-            <p>Sur Yssingeaux (43)</p>
-        </section>
-    </header>
-        
+                    <img src="./img/Photos-001/main1.png" alt="">
+                    <img class="hidden" src="./img/Photos-001/main2.png" alt="">
+                
+                
+                    <p>Endroit ou se trouvera l'ecran de pc</p>
+                    <button id="buttonScreen">Entrer</button>
 
-            <button id="buttonBack">Revenir à la page d'acceuil</button>
-            <div class="slide one">Slide 1 →</div>
-            <div class="slide two">Slide 2 →</div>
-            <div class="slide three">Slide 3 →</div>
-            <div class="slide four">Slide 4</div>
+            </div>
+
+                <button id="buttonBack">Revenir à la page d'acceuil</button>
+                
+                <div class="slide one">
+                    <article id="dev" class="container_dev">
+                        <h2>Ma formation en Développement Web et Application Mobil </h2>
+                        <h3>Formation Accessidev !</h3>
+                        <p>J'ai suivi une formation de 3 mois en présentiel et 10 mois en distanciel avec 2 organismes de formation "Histya" et "École O'clock". Au cours de cette formation, j'ai appris des connaissances essentielles en développement web, notamment en :</p>
+                            <ul>
+                                <!-- en bubulle, apparait en fondue et grossis, pop chacun sont tour -->
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>Node JS</li>
+                                <li>PostgreSQL</li>
+                                <li>React</li>
+                                <li>CMS</li>
+                                <li>Bonus: Accessibilité</li>
+                            </ul>
+        
+                            <p>J'ai également appris à travailler avec des outils tels que Git Bash, VS Code et GitHub. Cette formation m'a préparé à un stage à venir et à un projet tutoré.</p>
+        
+                        <section id="o'clock">
+                            <h3>École O'clock</h3>
+                            <p>La formation en développement web est organisé avec l'école O’clock, la première école de développement web en direct et à distance. Des professeurs expérimentés m'ont formé au métier de développeur, m'ont accompagné jusqu'à l'obtention du diplôme niveau Bac+2.</p>
+                        </section>
+        
+                        <section id="histya">
+                            <h3>Organisme de Formation Histya</h3>
+                            <p>Histya est l'organisme qui a rendu cette formation possible. Ils proposent des formations en groupe ou en formation individuelle, utilisant l'innovation pédagogique pour créer des formations interactives et stimulantes. Leurs formations sont proposées en présentiel, à distance ou de manière mixte. Ils offrent un suivi personnalisé de l'apprentissage et du projet professionnel.</p>
+                        </section>
+        
+                    </article>
+                </div>
+
+                <div class="slide two">
+                    <article id="benevolat" class="container_ecole">
+                        <h2>Projet, bénévole pour une école de la nature</h2>
+                        <h3>Ecole Colegram, Jardin d'enfants Coucou Hibou !</h3>
+                        <p>En tant que bénévole au sein d'une école de la nature, une association non conventionnelle axée sur l'éducation, j'ai pris en charge la gestion de plusieurs commissions vitales. J'ai choisi d'apporter mes compétences à la commission Communication, à la recherche de financements et à la gestion des ressources humaines, contribuant ainsi au développement et à la réussite de l'école. Voici comment j'ai mis en œuvre ces responsabilités au sein de chaque commission :</p>
+        
+                        <section id="communication">
+                            <h3>Commission Communication</h3>
+                            <p>Faisant partie de la commission Communication, je suis en charge de tache spécifique pour promouvoir l'école, notamment :</p>
+                                <ul>
+                                    <li>Conception de supports de communication : Flyers, affiches, ect.</li>
+                                    <li>Gestion de médias sociaux : Page Facebook de l'école.</li>
+                                    <li>Conception et maintenance du site web de l'école.</li>
+                                    <li>Retouche photo professionnelle.</li>
+                                    <li>Création de designs pour banderole.</li>
+                                    <li>Premier contact et intervention sur des chaînes de radio.</li>
+                                </ul>
+                         </section>
+        
+                         <section id="fonds">
+                            <h3>Commission Recherche de fonds</h3>
+                            <p>En tant que gestionnaire de la commission Recherche de Fonds, je m'engage activement dans la quête de financements visant à soutenir les projets éducatifs de l'école et à favoriser l'avancement de la construction de ses infrastructures. Mes compétences spécifiques comprennent notamment :</p>
+                                <ul>
+                                    <li>Identification de sources de financement.</li>
+                                    <li>Rédaction de demandes de subvention.</li>
+                                    <li>Evaluation de la visibilité des projets.</li>
+                                    <li>Conception de supports de communication pour les demandes de mécénat, de sponsoring et de dons.</li>
+                                    <li>Initiation du premier contact et organisation de rendez-vous avec des entreprises, des associations et des particuliers.</li>
+                                    <li>Création d'outils de soutien pour l'organisation de la commission.</li>
+                                    <li>Rédaction de courriers et de lettres d'information pour l'envoi des brochures de recherche de fonds.</li>
+                                </ul>
+                        </section>
+        
+                        <section id="rh">
+                            <h3>Commission Ressources humaines (RH)</h3>
+                            <p>En tant RH de l'école, j'ai géré les questions liées au personnel, avec des compétences telles que :</p>
+                            <ul>
+                                <li>Gestion des Ressources Humaines, y compris le recrutement.</li>
+                                <li>Participation active aux réunions pour discuter des questions liées au personnel</li>
+                            </ul>
+                        </section>
+                            a
+                    </article>
+                </div>
+                <div class="slide three">Slide 3 →</div>
+                <div class="slide four">Slide 4</div>
+
+
+            <footer></footer>
         </div>
     </div>
 </body>
