@@ -88,7 +88,7 @@ ul, ol {
 .screen {
   height: 100vh;
   width: 100vw;
-  background-image: url("../../src/img/Photos-001/fond1.jpg");
+  background-image: url("../../src/img/page-individuels/fond1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
