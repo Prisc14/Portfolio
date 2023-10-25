@@ -1,22 +1,21 @@
-document.addEventListener("DOMContentLoaded", function mains () {
-    // je selection l'image de la main 
-    const handImage = document.querySelector("#sreenLaptop img");
+document.addEventListener("DOMContentLoaded", function () {
+    // Prisc: je selection l'image des mains 
+    const main1 = document.querySelector("#main1");
+    const main2 = document.querySelector("#main2");
+
+// Prisc: j'attends 3sec pour changer l'image. remplacer la main1 pas la main2
+    setTimeout(function () {
+        main1.classList.add("hidden"); //Prisc:cache la main1
+        main2.classList.remove("hidden");// Prisc: affiche la main2
+    }, 3000); // Prisc : au bout de 3sec
+    });
 
 // je selection les boutons
 const buttonEntrer = document.querySelector('#buttonScreen');
 const buttonBack = document.querySelector('#buttonBack');
 
 
-// Prisc:  J'attend 3s et j'ajoute une classe pour activer l'animation
-setTimeout(function () {
-    handImage.src = "./img/page-individuels/main2.png";
 
-// Prisc : j'ajoute la classe pour l'animation
-handImage.classList.add("animate-hand");
-
-//je cache la 1ere main apres 3seg
-screenLaptop.classList.add("hidden");
-}, 3000);
 
 
  // jordan : code pour le bouton entrer
@@ -26,5 +25,4 @@ buttonEntrer.addEventListener("click", () => {
 // jordan : code pour le bouton revenir page d'accueil
 buttonBack.addEventListener("click", () => {
     screenLaptop.classList.remove('hidden');
-});
 });
